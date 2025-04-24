@@ -44,10 +44,19 @@ export default function Header() {
 
             <li>
               <Link
-                href="/#"
+                href="/#buy"
                 className="font-satoshi font-bold bg-transparent text-gray-800  "
               >
                 Staking
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                href="/#tokenomics"
+                className="font-satoshi font-bold bg-transparent text-gray-800  "
+              >
+                Tokenomics
               </Link>
             </li>
 

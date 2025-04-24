@@ -131,11 +131,11 @@ export default function HeroHome() {
           >
             {/* 40% width div */}
             <div className=" w-full sm:w-[40%]  ">
-              <h3 className="sm:ml-[20%] text-center sm:text-left font-slacky text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+              <h3 className="sm:ml-[40%] text-center sm:text-left font-slacky text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
                 AIR
                 <br /> DROP
               </h3>
-              <h3 className="sm:ml-[20%] text-center sm:text-left font-satoshi text-[10px] md:text-[16px] mt-2">
+              <h3 className="sm:ml-[40%] text-center sm:text-left font-satoshi text-[10px] md:text-[16px] mt-2">
                 Were you a loyal $SHIB hodler? Then you might
                 <br /> already be rich. We’re snapshotting a random
                 <br /> Ethereum block (soon™️).
@@ -153,7 +153,7 @@ export default function HeroHome() {
             </div>
           </div>
 
-          <div className="w-full mt-8 text-center md:mt-4">
+          <div id="buy" className="w-full mt-8 text-center md:mt-4">
             <h3 className="font-slacky w-full text-[28px] sm:text-[64px] md:text-[82px]">
               HOW TO BUY
             </h3>
@@ -203,7 +203,10 @@ export default function HeroHome() {
               </div>
             </div>
 
-            <div className=" w-full items-center justify-items-center mt-8 text-center">
+            <div
+              id="tokenomics"
+              className=" w-full items-center justify-items-center mt-24 text-center"
+            >
               <h3 className="font-slacky text[32px] sm:text-[58px] md:text-[82px] text-center w-full">
                 TOKENOMICS
               </h3>
