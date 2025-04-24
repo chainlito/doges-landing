@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Doges Airdrop",
-  description: "Page description",
+  title: "$DOGES - Doges Only Governing Every Shibes",
+  description: "A meme token with no utility, no promises, and no mercy.",
 };
 
 import Hero from "@/components/hero-home";

@@ -38,7 +38,7 @@ export default function Header() {
                 href="/#kfeature"
                 className="font-satoshi font-bold bg-transparent text-gray-800  "
               >
-                Key Features
+                Airdrop
               </Link>
             </li>
 
@@ -47,7 +47,7 @@ export default function Header() {
                 href="/#buy"
                 className="font-satoshi font-bold bg-transparent text-gray-800  "
               >
-                Staking
+                How To Buy
               </Link>
             </li>
 
@@ -79,11 +79,15 @@ export default function Header() {
                 backgroundPosition: "center",
               }}
             ></div> */}
-            <Image
-              alt="BUY"
-              src={BuyImage}
-              className="cursor-pointer w-[60%]"
-            ></Image>
+            <Link
+              href="https://app.uniswap.org/swap"
+            >
+              <Image
+                alt="BUY"
+                src={BuyImage}
+                className="cursor-pointer w-[60%]"
+              ></Image>
+            </Link>
           </div>
         </div>
       </div>

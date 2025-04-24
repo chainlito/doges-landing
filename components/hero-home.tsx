@@ -46,11 +46,11 @@ export default function HeroHome() {
                   data-aos="zoom-y-out"
                   data-aos-delay={300}
                 >
-                  A meme token with no utility, no promises, and no mercy. Just{" "}
+                  <b>Doge Only Governing Every Shibes</b>
                   <br />
-                  vibes, chaos, and the sacred bond
+                  A meme token with no utility, no promises, and no mercy.
                   <br />
-                  between Doge and Shiba
+                  Just pure meme energy, absolute degeneracy, and the rise of a new Doge dynasty.
                 </p>
                 <div className=" relative flex items-center justify-between h-14 before:absolute before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]">
                   <div className="flex-1 text-elft mt-[20%]">
@@ -236,13 +236,13 @@ export default function HeroHome() {
               </h3>
               <div className="w-[40%] flex mt-8">
                 <div className="w-[30%]">
-                  <SocialIcon url="https://twitter.com" />
+                  <SocialIcon url="https://x.com/doges_coin_eth" />
                 </div>
                 <div className="w-[30%]">
                   <SocialIcon url="https://discord.com" />
                 </div>
                 <div className="w-[30%]">
-                  <SocialIcon url="https://telegram.org" />
+                  <SocialIcon url="https://t.me/Doges_Official" />
                 </div>
               </div>
               <Image src={DogGlass} alt="Shiba"></Image>
