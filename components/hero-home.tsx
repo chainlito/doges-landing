@@ -113,7 +113,7 @@ export default function HeroHome() {
             </p>
           </div>
 
-          <div className=" sm:flex w-full mt-8 text-center md:mt-4">
+          <div className=" sm:flex w-full mt-8 text-center md:mt-4 p-8">
             {/* 40% width div */}
             <div className=" w-full sm:w-[40%]  ">
               <h3 className="text-center sm:text-left font-slacky text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
