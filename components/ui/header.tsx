@@ -17,7 +17,7 @@ export default function Header() {
           <ul className=" w-[80%] flex flex-1 items-center justify-center gap-3">
             <li>
               <Link
-                href="/#"
+                href="/#who"
                 className="font-satoshi font-bold bg-transparent text-gray-800  "
               >
                 Who is it
@@ -26,7 +26,7 @@ export default function Header() {
 
             <li>
               <Link
-                href="/#"
+                href="/#story"
                 className="font-satoshi font-bold bg-transparent text-gray-800  "
               >
                 Story
@@ -35,7 +35,7 @@ export default function Header() {
 
             <li>
               <Link
-                href="/#"
+                href="/#kfeature"
                 className="font-satoshi font-bold bg-transparent text-gray-800  "
               >
                 Key Features
@@ -53,7 +53,7 @@ export default function Header() {
 
             <li>
               <Link
-                href="/#"
+                href="/#community"
                 className="font-satoshi font-bold bg-transparent text-gray-800  "
               >
                 Community
