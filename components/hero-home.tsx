@@ -93,7 +93,7 @@ export default function HeroHome() {
             {/* Hero image */}
             <div
               id="story"
-              className="relative aspect-video rounded-2xl  px-5 py-3  before:pointer-events-none before:absolute before:-inset-5 [background-image:linear-gradient(to_bottom,white_73.5%,transparent_26.5%)]"
+              className=" w-[80%] left-[10%] relative aspect-video rounded-2xl  px-5 py-3  before:pointer-events-none before:absolute before:-inset-5 [background-image:linear-gradient(to_bottom,white_73.5%,transparent_26.5%)]"
             >
               <h1 className="font-slacky text-2xl sm:text-4xl md:text-6xl lg:text-9xl text-center">
                 ABOUT

@@ -14,13 +14,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div
-      style={{
-        backgroundImage: `url(${Background.src})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
+    <div>
       <Hero />
       {/* <div className="w-full items-center justify-items-center ">
         <Image src={DogGlass} alt="Shiba"></Image>
