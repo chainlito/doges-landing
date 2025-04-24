@@ -22,9 +22,9 @@ export default function Home() {
       }}
     >
       <Hero />
-      <div className="w-full items-center justify-items-center ">
+      {/* <div className="w-full items-center justify-items-center ">
         <Image src={DogGlass} alt="Shiba"></Image>
-      </div>
+      </div> */}
       {/* <BusinessCategories />
       <FeaturesPlanet />
       <LargeTestimonial />

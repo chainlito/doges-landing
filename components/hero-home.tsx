@@ -14,14 +14,16 @@ import MoneyDog from "@/public/images/money-dog.png";
 import { SiDiscord, SiTelegram, SiGitter } from "react-icons/si";
 import { SocialIcon } from "react-social-icons";
 import DogGlass from "@/public/images/dog-glass.png";
+import BottomBack from "@/public/images/bottom-back.png";
+import TopBack from "@/public/images/top-back.png";
 
 export default function HeroHome() {
   return (
     <section className="relative">
       <PageIllustration />
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+      <div className="">
         {/* Hero content */}
-        <div className="pb-12 pt-32 md:pb-20 md:pt-40 ">
+        <div className=" pt-32  md:pt-40 ">
           {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
             <h1
@@ -92,7 +94,7 @@ export default function HeroHome() {
               </h1>
 
               {/* Overlapping Quote Box */}
-              <div className="absolute -translate-x-1/1 mb-4  z-10 bg-white rounded-2xl p-4 shadow-lg">
+              {/* <div className="absolute -translate-x-1/1 mb-4  z-10 bg-white rounded-2xl p-4 shadow-lg">
                 <h3 className="text-black font-satoshi text-[16px]">
                   “They said we need utility.
                   <br /> We gave them vibes.”
@@ -100,7 +102,7 @@ export default function HeroHome() {
                 <h3 className="text-black font-satoshi mt-2 text-[16px] text-[#5B6873]">
                   @someMemeLord
                 </h3>
-              </div>
+              </div> */}
 
               {/* Main Image - stays in place */}
               <Image src={ElonDog} alt="Back" className="z-0" />
@@ -196,7 +198,14 @@ export default function HeroHome() {
               <Image className="mt-8" src={MoneyDog} alt="Shiba"></Image>
             </div>
 
-            <div className=" w-full items-center justify-items-center mt-32 text-center">
+            <div
+              className=" w-full items-center justify-items-center mt-32 text-center"
+              style={{
+                backgroundImage: `url(${BottomBack.src})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            >
               <h3 className=" text-white font-slacky text-[28px] sm:text-[64px] md:text-[82px] text-center w-full">
                 JOIN
                 <br />
@@ -217,6 +226,7 @@ export default function HeroHome() {
                   <SocialIcon url="https://telegram.org" />
                 </div>
               </div>
+              <Image src={DogGlass} alt="Shiba"></Image>
             </div>
           </div>
         </div>
