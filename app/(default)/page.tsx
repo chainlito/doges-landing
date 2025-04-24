@@ -23,6 +23,7 @@ export default function Home() {
       <FeaturesPlanet />
       <LargeTestimonial />
       <Cta /> */}
+      
     </div>
   );
 }
